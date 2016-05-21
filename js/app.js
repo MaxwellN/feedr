@@ -35,7 +35,7 @@ $(document).ready(function() {
         $(articleBody).append(value.fields.body);
 
       });
-      console.log(data);
+      console.log(data.response.results);
       // $('<section class="articleContent"><a href="#"><h3>').text(guardianResponse.response.object.webTitle).appendTo(main);
     }
   });
